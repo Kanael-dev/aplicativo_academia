@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "academia_app",
+    "name": "Academia",
     "slug": "academia_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/favicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kanael.academia_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f8c2d7a-47de-4668-a48b-69fe5e39b662"
+      }
     }
   }
 }
